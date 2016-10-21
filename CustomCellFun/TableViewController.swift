@@ -11,6 +11,7 @@ import UIKit
 class TableViewController: UITableViewController {
     
     let reuseIdentifier = "friendCell"
+    
     var thrillerAlbum: [Song] = []
     
     
@@ -35,7 +36,7 @@ class TableViewController: UITableViewController {
 
     
     // MARK: - Table view data source
-
+ 
     override func numberOfSections(in tableView: UITableView) -> Int {
         
         return 1
